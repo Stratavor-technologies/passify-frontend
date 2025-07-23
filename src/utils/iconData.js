@@ -1,0 +1,17 @@
+export const iconsOptions = [
+  { value: "bi bi-cup", label: "bi bi-cup" },
+  { value: "bi bi-cup-fill", label: "bi bi-cup-fill" },
+  { value: "bi bi-bookmark-check-fill", label: "bi bi-bookmark-check-fill" },
+  { value: "bi bi-book-fill", label: "bi bi-book-fill" },
+  { value: "bi bi-circle-square", label: "bi bi-circle-square" },
+  { value: "bi bi-arrow-up", label: "bi bi-arrow-up" },
+  { value: "bi bi-arrow-down", label: "bi bi-arrow-down" },
+  { value: "bi bi-check", label: "bi bi-check" },
+  { value: "bi bi-x", label: "bi bi-x" },
+  { value: "bi bi-heart", label: "bi bi-heart" },
+  { value: "bi bi-star", label: "bi bi-star" },
+  { value: "bi bi-person", label: "bi bi-person" },
+  { value: "bi bi-envelope", label: "bi bi-envelope" },
+  { value: "bi bi-telephone", label: "bi bi-telephone" },
+  { value: "bi bi-gear", label: "bi bi-gear" },
+];

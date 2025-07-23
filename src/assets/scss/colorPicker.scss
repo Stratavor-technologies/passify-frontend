@@ -1,0 +1,22 @@
+.ant-color-picker-trigger.ant-color-picker-trigger-active{
+    border-inline-end-width: 0px !important;
+     border-color: transparent !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.ant-color-picker-trigger{
+    border: 0px !important;
+    background-color: transparent !important;
+    justify-content: left;
+    padding: 0px;
+}
+.ant-color-picker-trigger .ant-color-picker-color-block .ant-color-picker-color-block-inner {
+    border-radius: 100% !important;
+}
+.ant-color-picker-trigger .ant-color-picker-color-block{
+    box-shadow: none !important;
+    background-image: none !important;
+    width: 30px;
+    height: 30px;
+}

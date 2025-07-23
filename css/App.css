@@ -1,0 +1,252 @@
+.dashboard_screen {
+  height: calc(100vh - 5.125rem);
+  background-color: #f9f8fc;
+}
+
+.mainHeading {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  position: relative;
+  color: #45505b;
+  text-align: center;
+}
+.mainHeading::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7.5rem;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 3.75rem);
+}
+.mainHeading::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  background: #f74780;
+  bottom: 0;
+  left: calc(50% - 1.25rem);
+}
+
+.stepperHeight {
+  height: calc(100vh - 5.625rem);
+}
+
+.tableHeight {
+  height: calc(100vh - 10rem);
+}
+
+.loginCardBg {
+  background-image: url("../images/login-wrapper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginPageBg {
+  background-image: url("../images/login_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ant-spin-dot-item {
+  background-color: #ffffff !important;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.logo_img {
+  position: relative;
+  width: 26.4375rem;
+  height: 3.25rem;
+  justify-content: center;
+  display: flex;
+  border: solid 1px #f74780;
+  padding: 0.75rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.logo_img:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #45505b;
+}
+.logo_img:hover .middle-logo {
+  opacity: 1;
+}
+.logo_img:hover .overlay {
+  opacity: 1;
+}
+.logo_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.middle-logo {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#logo_image_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#logo_cross_icon {
+  color: #f74780;
+}
+
+.img-preview-container {
+  display: flex;
+  border: solid 1px #f74780;
+  width: 60px;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+.img-preview-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ant-radio-button-wrapper {
+  width: 48% !important;
+  height: auto;
+  margin: 0.625rem 4px;
+}
+@media screen and (max-width: 768px) {
+  .ant-radio-button-wrapper {
+    width: 100% !important;
+  }
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.header-nav {
+  box-shadow: 0.25rem 0rem 0.625rem 0rem rgba(51, 51, 51, 0.05);
+}
+
+.ant-table-thead > tr > th {
+  background-color: #364349 !important;
+  color: #ffffff !important;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.ant-select-selector {
+  height: 3.125rem !important;
+}
+
+.signupSelect .ant-select-selector {
+  border: 1px solid black;
+}
+
+.ant-select-selection-placeholder {
+  color: black !important;
+}
+
+.ant-space-gap-row-small {
+  row-gap: 0rem !important;
+}
+
+.selectTable .ant-select-selector {
+  height: 2.5rem !important;
+}
+.selectTable .ant-select-arrow {
+  margin-top: -0.25rem !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ant-input {
+  color: #364349 !important;
+}
+
+.librarySection {
+  height: calc(100vh - 14.375rem);
+  overflow-y: auto;
+}
+
+.subscriptionCard {
+  box-shadow: rgba(99, 99, 99, 0.2) 0rem 0.125rem 0.5rem 0rem;
+}
+
+.MyCardShadow {
+  box-shadow: 0rem 0.125rem 0.5rem 0rem rgba(114, 73, 203, 0.1215686275);
+}
+
+.dashboardCard {
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.3125rem 0.9375rem;
+}
+
+.ant-tooltip .ant-tooltip-arrow:before {
+  background-color: #364349 !important;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  background-color: #364349 !important;
+}
+
+.mobileScreen {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media screen and (max-width: 100rem) {
+  .mobileScreen {
+    height: calc(100% - 1.125rem) !important;
+  }
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-row .ant-table-cell {
+  color: #364349 !important;
+}
+
+.ant-table-tbody > .ant-table-row:nth-child(2n) > td {
+  background-color: #efefef !important;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,32 @@
+.customSelect {
+  width: 100%;
+  font-size: 0.95rem;
+  font-weight: 400;
+  border-radius: 6px;
+  transition: all 300ms ease-in-out;
+  border: 1px solid transparent;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  padding: 10px; 
+  height: 130px;
+}
+
+.selectedOption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 3px;
+  max-width: 100%; 
+  overflow: hidden; 
+}
+.circle {
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px; 
+  font-weight: bold;
+}
